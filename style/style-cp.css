@@ -59,6 +59,13 @@ nav, footer{
     font-family: 'Manrope', sans-serif; 
 }
 
+.liens_reseaux{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
 footer{
     font-size : 30px;
 }
@@ -86,21 +93,26 @@ header img, footer img{
 
 .liens_reseaux{
     position:relative;
-    top:-25px;
+    /* top:-25px; */
 }
 
 .logo_tel{
     width : 40px;
     height : 40px;
     position:relative;
-    top:9px;  
+    top:9px;
 }
 
 .logo_linkedin{
     width : 125px;
     height : 125px;
     position:relative;
-    top:29px;
+    top:9px;
+}
+
+.mail-footer{
+    position:relative;
+    top:5px;
 }
 
 
@@ -135,6 +147,16 @@ header img, footer img{
         display:flex;
         flex-direction:column;
         gap:20px;
-        align-items: center;
+    }
+    nav img{
+        margin-left:25px;
+    }
+
+    .logo_tel{
+        top:10px;
+    }
+
+    .logo_linkedin{
+        top:-20px;
     }
 }
